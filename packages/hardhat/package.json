@@ -38,7 +38,7 @@
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "ethers": "^6.13.2",
+    "ethers": "^6.13.4",
     "hardhat": "^2.22.10",
     "hardhat-deploy": "^0.12.4",
     "hardhat-deploy-ethers": "^0.4.2",
@@ -51,11 +51,16 @@
     "typescript": "<5.6.0"
   },
   "dependencies": {
+    "@coinbase/wallet-sdk": "^4.2.4",
     "@inquirer/password": "^4.0.2",
     "@openzeppelin/contracts": "^5.0.2",
     "@typechain/ethers-v6": "^0.5.1",
+    "@wagmi/connectors": "^5.7.2",
+    "@wagmi/core": "^2.16.2",
     "dotenv": "^16.4.5",
     "envfile": "^7.1.0",
-    "qrcode": "^1.5.4"
+    "qrcode": "^1.5.4",
+    "viem": "2.x",
+    "wagmi": "^2.14.5"
   }
 }
